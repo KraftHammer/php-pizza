@@ -44,7 +44,7 @@ html, body {
     overflow-x: hidden;
     
 
-    overflow-y: overlay; /* Важно для Chrome */
+    overflow-y: overlay;
     padding-right: 0 !important;
     margin-right: 0 !important;
 }
@@ -54,7 +54,7 @@ html, body {
   src: url('./Fonts/MontserratAlternates-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Для оптимизации загрузки */
+  font-display: swap;
 }
 
 @font-face {
@@ -62,28 +62,29 @@ html, body {
   src: url('./Fonts/MontserratAlternates-Italic.ttf');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Для оптимизации загрузки */
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'MontserratAlternates-Light';
-  src: url('./Fonts/MontserratAlternates-Light.ttf');font-weight: normal;
+  src: url('./Fonts/MontserratAlternates-Light.ttf');
+  font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Для оптимизации загрузки */
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Montserrat Alternates Medium';
   src: url('/Fonts/MontserratAlternates-Medium.ttf');font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Для оптимизации загрузки */
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Montserrat Alternates Light Italic';
   src: url('./Fonts/MontserratAlternates-LightItalic.ttf');font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Для оптимизации загрузки */
+  font-display: swap;
 }
 
 .button {
